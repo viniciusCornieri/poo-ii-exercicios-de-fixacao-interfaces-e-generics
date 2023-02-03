@@ -18,7 +18,7 @@ Crie um método que receba uma lista de formas e retorne a soma dos volumes, ver
 
 ## Exercício 3 — Stack/Pilha
 
-Crie uma interface `Stack` ou "Pilha" genérica que possui o comportamento de `LIFO (Last in, First out)`, último a entrar é o primeiro a sair, com os 3 métodos:
+Crie e implemente uma interface `Stack` ou "Pilha" genérica que possui o comportamento de `LIFO (Last in, First out)`, último a entrar é o primeiro a sair, com os 3 métodos:
 * `push` ou empilhar que recebe um elemento e adiciona na pilha;
 * `pop` ou desempilhar que remove e retorna o último elemento adicionado na pilha. Caso a pilha esteja vazia sobe uma exceção;
 * `peek` ou espiar, que retorna o último elemento da pilha sem removê-lo. Caso a pilha esteja vazia sobe uma exceção;
@@ -31,6 +31,8 @@ Faça no seu método main exemplos do uso dos métodos citados.
 Supondo que trabalhe para uma agência de espionagem e lhe foi atribuido a responsabilidade de criar uma classe genérica chamada `Classified` para ocultar os dados que tenham acesso restrito a pessoas sem autorização. 
 Essa classe recebe no seu construtor um objeto e uma senha. 
 O ToString dela retorna sempre `Objeto sigiloso[*****]`, e ela possui um método get(String senha) que recebe uma senha como parâmetro, se essa senha estiver correta retorna o objeto. Caso contrário, lança uma exceção dizendo que a senha é inválida e não pode retornar o objeto e as autoridades serão notificadas desse ocorrido.
+
+## Exercício 5 — Pageable
 
 Foi-nos solicitado que fosse criado paginação para o nosso sistema assim devemos criar uma interface genérica `Pageable`, paginável, com os métodos:
 * `getPage(int pageNumber)` que recebe o número da página e retorna um objeto genérico do tipo `Page`, que definiremos a seguir;
