@@ -20,6 +20,8 @@ public class Exercicio2 {
 
         System.out.println("Soma dos volumes: " + somaDosVolumes(listaDeFormas));
         System.out.println("Soma das áreas: " + somaDasAreas(listaDeFormas));
+
+        // Para mais exemplos consulte as classes de testes.
     }
 
     public static BigDecimal somaDasAreas(List<? extends Forma2D> formas2D) {

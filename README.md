@@ -31,7 +31,8 @@ Implemente essa interface utilizando ArrayList, não vale utilizar a própria St
 
 Supondo que trabalhe para uma agência de espionagem e lhe foi atribuido a responsabilidade de criar uma classe genérica chamada `Classified` para ocultar os dados que tenham acesso restrito a pessoas sem autorização. 
 Essa classe recebe no seu construtor um objeto e uma senha. 
-O ToString dela retorna sempre `Objeto sigiloso[*****]`, e ela possui um método get(String senha) que recebe uma senha como parâmetro, se essa senha estiver correta retorna o objeto. Caso contrário, lança uma exceção dizendo que a senha é inválida e não pode retornar o objeto e as autoridades serão notificadas desse ocorrido.
+O ToString dela retorna sempre `Objeto sigiloso[*****]`, e ela possui um método get(String senha) que recebe uma senha como parâmetro, se essa senha estiver correta retorna o objeto. 
+Caso contrário, lança uma exceção dizendo que a senha é inválida e não pode retornar o objeto e as autoridades serão notificadas desse ocorrido.
 
 ## Exercício 5 — Pageable
 

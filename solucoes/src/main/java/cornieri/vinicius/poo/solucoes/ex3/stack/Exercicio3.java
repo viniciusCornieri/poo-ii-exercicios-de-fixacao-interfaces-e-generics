@@ -17,5 +17,6 @@ public class Exercicio3 {
         System.out.println("stack.peek: " + stack.peek());
         System.out.println("stack.size: " + stack.size());
 
+        // Para mais exemplos consulte as classes de testes.
     }
 }

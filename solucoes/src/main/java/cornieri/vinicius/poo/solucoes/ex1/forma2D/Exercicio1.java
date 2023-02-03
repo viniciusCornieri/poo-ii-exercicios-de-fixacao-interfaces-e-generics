@@ -16,7 +16,7 @@ public class Exercicio1 {
         List<Forma2D> formas2Ds = List.of(circuloDeRaio1, circuloDeRaio3, quadradoDeLado10, quadradoDeLado5, retanguloDeLados5e10, retanguloDeLados2e15);
         System.out.println("Soma das áreas: " + somaDasAreas(formas2Ds));
 
-        // Para mais exemplos consulte a classe de teste.
+        // Para mais exemplos consulte as classes de testes.
     }
 
     public static BigDecimal somaDasAreas(List<? extends Forma2D> formas2D) {
