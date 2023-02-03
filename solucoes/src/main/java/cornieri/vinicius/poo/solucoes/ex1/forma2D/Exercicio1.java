@@ -14,7 +14,7 @@ public class Exercicio1 {
         Retangulo retanguloDeLados2e15 = new Retangulo(BigDecimal.valueOf(2), BigDecimal.valueOf(15));
 
         List<Forma2D> formas2Ds = List.of(circuloDeRaio1, circuloDeRaio3, quadradoDeLado10, quadradoDeLado5, retanguloDeLados5e10, retanguloDeLados2e15);
-        System.out.println(somaDasAreas(formas2Ds));
+        System.out.println("Soma das áreas: " + somaDasAreas(formas2Ds));
 
         // Para mais exemplos consulte a classe de teste.
     }
@@ -22,15 +22,13 @@ public class Exercicio1 {
     public static BigDecimal somaDasAreas(List<? extends Forma2D> formas2D) {
         // utilizando stream
         BigDecimal valorInicial = BigDecimal.ZERO;
-        return formas2D.stream()
-                .map(Forma2D::area)
-                .reduce(valorInicial, BigDecimal::add);
+        return formas2D.stream().map(Forma2D::area).reduce(valorInicial, BigDecimal::add);
 
         /*
             //sem utilizar stream
             BigDecimal soma = valorInicial;
             for (Forma2D forma: formas2D) {
-                soma = soma.add(forma.calcularArea());
+                soma = soma.add(forma.area());
             }
             return soma;
          */

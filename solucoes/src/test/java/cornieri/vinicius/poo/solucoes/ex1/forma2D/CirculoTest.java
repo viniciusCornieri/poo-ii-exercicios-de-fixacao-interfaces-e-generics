@@ -5,9 +5,9 @@ import org.junit.jupiter.api.Test;
 
 import java.math.BigDecimal;
 
-class CirculoTest {
+import static cornieri.vinicius.poo.solucoes.ConstantesMatematicas.PI;
 
-    private static final BigDecimal PI = BigDecimal.valueOf(Math.PI);
+class CirculoTest {
 
     @Test
     void deveCalcularAAreaDeUmCirculo() {

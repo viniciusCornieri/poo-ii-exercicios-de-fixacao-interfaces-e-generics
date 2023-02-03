@@ -1,10 +1,11 @@
 package cornieri.vinicius.poo.solucoes.ex1.forma2D;
 
+import cornieri.vinicius.poo.solucoes.ConstantesMatematicas;
+
 import java.math.BigDecimal;
 
 public class Circulo implements Forma2D {
 
-    private static final BigDecimal PI = BigDecimal.valueOf(Math.PI);
     private final BigDecimal raio;
 
     public Circulo(BigDecimal raio) {
@@ -14,6 +15,6 @@ public class Circulo implements Forma2D {
     @Override
     public BigDecimal area() {
         BigDecimal raioAoQuadrado = raio.multiply(raio);
-        return PI.multiply(raioAoQuadrado);
+        return ConstantesMatematicas.PI.multiply(raioAoQuadrado);
     }
 }
