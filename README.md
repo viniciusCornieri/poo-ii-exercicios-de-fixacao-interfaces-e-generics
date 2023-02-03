@@ -1,15 +1,18 @@
 # POO - II | Lista de exercícios sobre os conceitos de interfaces e generics.
 
-Aqui se encontram alguns exercícios para treinar os conceitos de interfaces e generics do módulo de Programação Orientada a Objetos. Na pasta soluções encontram-se uma forma de resolver os exercícios propostos, recomendo só utilizar como conferência e após já tiver tentado resolver o exercício por conta própria.
+Aqui se encontram alguns exercícios para treinar os conceitos de interfaces e generics do módulo de Programação Orientada a Objetos. 
+Para conferência adicionei no diretório `soluções` uma possível forma de resolver os exercícios propostos,
+recomendo só utilizar como conferência e após já tiver tentado resolver o exercício por conta própria.
+Também foi adicionado testes para as soluções localizados no diretório de testes com o mesmo `package` da classe a ser testada.
 
 ## Exercício 1 — Forma2D
 
-Crie uma interface `Forma2D` que possui o método `calcularArea()` que retorna a área de uma forma geométrica. Implemente essa interface para as seguintes formas Quadrado, Retângulo e Circulo. 
+Crie uma interface `Forma2D` que possui o método `area()` que retorna a área de uma forma geométrica. Implemente essa interface para as seguintes formas Quadrado, Retângulo e Circulo. 
 Crie um método que receba uma lista de formas e retorne a soma das areas dessas formas.
 
 ## Exercício 2 — Forma3D
 
-Crie uma interface `Forma3D` que estenda o comportamento da interface `Forma2D` do exercício anterior adicionando o método `calcularVolume()`. 
+Crie uma interface `Forma3D` que estenda o comportamento da interface `Forma2D` do exercício anterior adicionando o método `volume()`. 
 Implemente essa interface para as seguintes formas Cubo, Cilindro e Esfera. 
 Crie um método que receba uma lista de formas e retorne a soma dos volumes, verificar se o método anterior soma corretamente as áreas das formas 3D também.
 
