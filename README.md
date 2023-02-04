@@ -40,7 +40,7 @@ Foi-nos solicitado que fosse criado paginação para o nosso sistema assim devem
 * `getPage(int pageNumber)` que recebe o número da página e retorna um objeto genérico do tipo `Page`, que definiremos a seguir;
 * `getTotalPages()` que retorna o número total de páginas dessa paginação;
 * `getTotalElements()` que retorna a quantia total de elementos a serem paginados;
-* `getElementsPerPages()` que retorna o número de elementos por página;
+* `getMaxElementsPerPage()` que retorna o número máximo de elementos por página;
 
 A classe Page é uma classe genérica que representa uma página da paginação, ela possui os seguintes métodos:
 * `getPageNumber()` que retorna o número da página;
