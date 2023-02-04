@@ -13,9 +13,20 @@ public interface Stack<E> {
      * @return o último elemento adicionado na pilha.
      */
     E pop();
+
+    /**
+     * retorna o último elemento adicionado na pilha.
+     * @return o último elemento adicionado na pilha
+     */
     E peek();
 
+    /**
+     * @return a quantidade de elementos na pilha
+     */
     int size();
 
+    /**
+     * @return se a pilha está ou não vazia.
+     */
     boolean isEmpty();
 }
