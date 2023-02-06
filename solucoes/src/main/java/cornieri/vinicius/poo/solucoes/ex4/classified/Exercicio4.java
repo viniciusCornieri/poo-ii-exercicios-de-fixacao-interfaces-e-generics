@@ -20,5 +20,7 @@ public class Exercicio4 {
             System.out.println("Acesso não autorizado detectado no segundo uso");
             e.printStackTrace();
         }
+        // Para mais exemplos consulte as classes de testes.
+
     }
 }

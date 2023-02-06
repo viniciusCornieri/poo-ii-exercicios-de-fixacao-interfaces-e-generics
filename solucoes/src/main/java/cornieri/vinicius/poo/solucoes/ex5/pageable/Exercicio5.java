@@ -11,6 +11,8 @@ public class Exercicio5 {
         System.out.println(pageable);
         System.out.println(pageable.getPage(0));
         System.out.println(pageable.getPage(1));
-        System.out.println(pageable.getPage(2));
+        System.out.println(pageable.getPage(2)); // vai lançar exceção essa página não deve existir
+        // Para mais exemplos consulte as classes de testes.
+
     }
 }
